@@ -1,52 +1,83 @@
-<!doctype html>
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href="./output.css" rel="stylesheet">
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <script src="https://cdn.tailwindcss.com"></script>
+     <title>Document</title>
 </head>
-<body class="relative">
-     <section>
-          
-     </section>
-  <nav class="bg-primary-200 text-white rounded-b-3xl p-8 mx-4 mt-1  top-0 right-0 left-0 w-auto">
-     <section>
-          <div class=" flex justify-between mx-56">
-               <div>
-                    <img src="./images/logo.png" alt="" class="h-14">
-               </div>
-               <div class=" flex justify-between gap-16">
-               <button class="px-4  mb-2 rounded-lg text-white  text-center hover:bg-primary-100">Home</button>
-               <div class="flex justify-between gap-7 mt-3"> 
-                    <p>Our shop</p>
-                    <p>Our shop</p>
-                    <p>Our shop</p> </div>
-                
-                 <button class="px-4  mb-2 rounded-lg text-white  text-center bg-but_Color">SIGN IN</button>
-               </div>
-          </div>
-            </nav>
-          </section>
-            <section class="bg-primary-200 ">
-            <main>
-               <div class=" grid grid-cols-2">
+<body class="">
+     <nav class="bg-blue-600 flex justify-between text-white h-24 items-center mx-12 rounded-b-2xl mt-2 px-5 text-xl">
           <div>
-               <p>lorem</p>
-          
+               <img src="./images/logo.png" alt="" class="h-12">
           </div>
-          <div>
-               <h1>BEST GAMING SITE EVER!</h1>
-          </div>
-          <div><img src="./images/caption-dec.png" alt="" class="h-10"></div>
-          <div>
-               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore accusantium minima minus ipsa molestiae quisquam. </p>
-          </div>
+          <div class=" justify-evenly"> <ul class=" flex justify-between gap-7">
+               <li> <button class=" bg-blue-700 rounded-2xl text-white px-5 items-center py-1">Home </button></li>
+               <li>shop </li>
+               <li>product details </li>
+               <li>contac us </li>
+               <li> <button class=" bg-pink-500 rounded-2xl text-white px-5 items-center py-1">SIGN IN</button></li>
+          </ul></div>
+     </nav>
+     <main class=" bg-blue-500 mx-2" >
+          <div class=" bg-blue-500 flex justify-between py-36">
+               <div class="text-white mx-12 px-5 flex flex-col justify-evenly w-1/2">
+                    <div>
+                         <h1 class="text-2xl">Welcome to my channel</h1>
+                    </div>
+                    <div>
+                         <h1 class=" text-4xl  font-bold">BEST GAMMING EVER!</h1>
+                         <img src="./images/caption-dec.png" alt="" class="w-[20vh]  pl-10">
+                    </div>
+                    <div class=" text-2xl">
+                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga alias repellendus aliquam eum <br>quis, reiciendis distinctio incidunt voluptas officiis obcaecati explicabo voluptates <br>molestias, ea velit qui! Placeat dolores quod temporibus.</p>
+                    </div>
+                    <div class="w-3/4 mx-auto bg-white  flex justify-between h-16 rounded-3xl pl-3">
+                         <input type="text" placeholder="type something" class="rounded-l-3xl">
+                         <button class="bg-pink-500 text-white px-5 py-1 rounded-3xl w-1/5"> Search</button>
+                    </div>
                </div>
-               <div>
-          <img src="./images/banner-image.jpg" alt="">
+               <div class="relative">
+                    <div class="bg-blue-800 text-white font-bold text-2xl absolute top[-100px] rounded-3xl h-16 w-16 flex justify-center items-center mx-auto"><p class="">$22</p></div>
+                    <div class="mx-12 px-5 relative">
+                         <img src="./images/banner-image.jpg" alt="" class="  ">
+                    </div>
+                    <div class="bg-pink-500 text-white font-bold text-2xl absolute top[-100px] rounded-full h-24 w-24 flex justify-center items-center mx-auto"><p class="">-40%</p></div>
                </div>
-            </main>
-     </section>
+               
+          </div>
 
+     </main>
+     <section class="grid grid-cols-4 gap-5 mx-12 px-5 ">
+          <div  class=" h-52 shadow shadow-black flex flex-col justify-center items-center rounded-2xl">
+               <div class="bg-blue-500 rounded-full">
+                    <img src="./images/featured-02.png" alt="" class=" w-full">
+               </div>
+          
+               <p>Free Storage</p>
+          </div>
+          <div  class=" h-52 shadow shadow-black flex flex-col justify-center items-center rounded-2xl">
+               <div class="bg-blue-500 rounded-full">
+                    <img src="./images/featured-02.png" alt="" class=" w-full">
+               </div>
+          
+               <p>Free Storage</p>
+          </div>
+          <div  class=" h-52 shadow shadow-black flex flex-col justify-center items-center rounded-2xl">
+               <div class="bg-blue-500 rounded-full">
+                    <img src="./images/featured-02.png" alt="" class=" w-full">
+               </div>
+          
+               <p>Free Storage</p>
+          </div>
+          <div  class=" h-52 shadow shadow-black flex flex-col justify-center items-center rounded-2xl">
+               <div class="bg-blue-500 rounded-full">
+                    <img src="./images/featured-02.png" alt="" class=" w-full">
+               </div>
+          
+               <p>Free Storage</p>
+          </div>
+          
+     </section>
 </body>
 </html>
