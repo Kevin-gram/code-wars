@@ -8,3 +8,16 @@
 
 // spot(s1,s2){
 // Code here
+function spot(s1, s2) {
+  // Code here
+  let res = [];
+  for (let i = 0; i < s1.length; i++) {
+    if (s1[i] != s2[i]) {
+      res.push(i);
+    }
+  }
+  return res;
+}
+const s1 = "abcdefg";
+const s2 = "abcqetg";
+console.log(spot(s1, s2));
