@@ -1,4 +1,4 @@
-export const boolToWord = (bool: boolean): string => {
+export const boolToWord = (bool) => {
   return bool === true ? "Yes" : "No";
   throw new Error("Not implemented!");
 };
