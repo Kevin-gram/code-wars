@@ -13,5 +13,5 @@ function divisors(integer) {
     {
         return `${integer} is prime`
     }
-    
+    // this is  a return 
     return res;
