@@ -5,3 +5,4 @@ function doubleEveryOther(a) {
   }
   return res;
 }
+// 7kyu
