@@ -1,4 +1,4 @@
-// using char code at  to find the difference
+// using char code at  to find the differencescriopt
 function findMissingLetter(array) {
   for (let i = 0; i < array.length; i++) {
     if (array[i + 1].charCodeAt(0) - array[i].charCodeAt(0) > 1) {
