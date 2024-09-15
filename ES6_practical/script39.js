@@ -1,5 +1,5 @@
 // check if the winning ticket
-// 6kyu kata
+
 function bingo(ticket, win) {
   let final = 0;
 
